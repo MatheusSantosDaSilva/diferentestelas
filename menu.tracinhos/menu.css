@@ -59,6 +59,7 @@ main{
 p{
     margin: 10px;
     text-align: justify;
+    text-indent: 20px;
 }
 li{
     list-style-type: none;
