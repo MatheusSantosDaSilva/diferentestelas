@@ -13,17 +13,22 @@
   'opsz' 24
 }
 #imenu{
+    display: inline-block;
+    text-align: center;
     cursor:pointer;
 }
+
 header{
+    text-align: center;
     margin: auto;
     color: white;
-    text-align: center;
     background-color: grey;
-    width: 500px;
+    width: 100vw;
     border: solid black 1px;
 }
+
 a{
+    text-align: center;
     text-decoration: none;
     color: white;
 }
@@ -36,7 +41,7 @@ a:hover{
     text-decoration: none;
     color: white;
     margin: 5px;
-    border: solid black 1px;
+    border: solid rgba(0, 0, 0, 0.342) 1px;
 }
 
 a{
@@ -45,6 +50,10 @@ a{
 }
 
 main{
+    margin: auto;
+    width:500px ;
+    color: white;
+    background-color: rgb(107, 104, 104);
     margin-top: 50px;
 }
 p{
@@ -53,4 +62,13 @@ p{
 }
 li{
     list-style-type: none;
+}
+@media screen and (min-width:768px){
+    #imenu{
+        display: none;
+    }
+    ul li{
+        display: inline-block;
+        
+    }
 }
